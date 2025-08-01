@@ -1,4 +1,6 @@
 ''' 
+OPERADORES: 
+
 Recebe =
 Igual ==
 Diferente !=
@@ -13,4 +15,11 @@ Divisão /
 Divisão Inteira //
 Potencia  **
 Resto % 
+
+ORDEM DE PRECEDÊNCIA:
+
+1 = ()
+2 = **
+3 = * / // %
+4 = + -
 '''
