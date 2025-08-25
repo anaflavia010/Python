@@ -1,0 +1,6 @@
+times = ('Flamengo', 'Cruzeiro', 'Bragantino', 'Palmeiras', 'Bahia', 'Fluminense', 'Atlético-MG', 'Botafogo', 'Mirassol', 'Corinthians', 'Grêmio', 'Ceará', 'Vasco', 'São Paulo', 'Santos', 'Vitória', 'Internacional', 'Fortaleza', 'Juventude', 'Sport')
+print('Times de times do Brasileirão: ', times)
+print(f'Os 5 primeiros são: {times[0:5]}')
+print(f'Os 4 últimos são: {times[-4:]}')
+print(f'Times em ordem alfabética: {sorted(times)}')
+print(f'O Atlético-MG está na {times.index("Atlético-MG") + 1} posição')
